@@ -1,26 +1,24 @@
-const a=10, b=5;
-
-function add()
+function add(a,b)
 {
 
 console.log(a+b)
 }
-add()
-function sub()
+add(2,5)
+function sub(a,b)
 {
 console.log(a-b);
 }
-sub()
+sub(9,4)
 
-function mul()
+function mul(a,c)
 {
   
 console.log(a*c)
 }
-mul()
-function div()
+mul(2,9)
+function div(a,d)
 {
 console.log(a/d)
 }
 
-div()
+div(10,5)
